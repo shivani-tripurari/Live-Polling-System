@@ -66,7 +66,7 @@ const Student = () => {
   }
 
   return (
-    <div class="questionArea">
+    <div className="questionArea">
       <h1>{name}, wait for the teacher to ask question</h1>
       {question ? (
         <div>
