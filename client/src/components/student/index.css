@@ -1,0 +1,57 @@
+.studentName {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.studentName input{
+    height: 50px;
+    width: 500px;
+}
+.studentName button{
+    border-radius: 12px;
+    border: none;
+    padding: 10px 20px;
+    background-color: #7765DA;
+}
+
+.questionArea{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+
+.questionArea .options {
+  position: relative;
+  border: 1px solid #6E6E6E;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  overflow: hidden;
+  height: 60px; /* You can adjust this height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 0;
+}
+
+.questionArea .options strong,
+.questionArea .options span {
+  position: relative;
+  z-index: 1;
+}
+
+.questionArea .options .progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #7765DA;
+  z-index: 0;
+}
+
